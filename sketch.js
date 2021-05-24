@@ -70,7 +70,7 @@ function draw() {
   function addFoods(){
     foodS++
     database.ref('/').update({
-      food:foodS
+      Food:foodS
     })
   }
   function feedDog(){
