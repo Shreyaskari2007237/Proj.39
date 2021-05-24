@@ -47,11 +47,7 @@ function draw() {
   lastFed= data.val();
         })
   //add styles here
-  textSize(20);
-  fill("white");
-  stroke(2);
-  textSize(20);
-  text("Note:Press UP_ARROW Key To Feed Drago Milk!",30,30); 
+  
 
   food.display();
 
